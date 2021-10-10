@@ -23,7 +23,7 @@ namespace MoodAnalyserAppWithCore
             }
             catch
             {
-                throw new MoodAnalyserCustomException(MoodAnalyserCustomException.ExceptionType.INVALID_INPUT, "Enter Valid FirstName");
+                throw new MoodAnalyserCustomException(MoodAnalyserCustomException.ExceptionType.INVALID_FIRSTNAME, "Enter Valid FirstName");
             }
         }
         public bool LastName(string LastName)
@@ -36,7 +36,7 @@ namespace MoodAnalyserAppWithCore
             }
             catch
             {
-                throw new MoodAnalyserCustomException(MoodAnalyserCustomException.ExceptionType.INVALID_INPUT, "Enter Valid LastName");
+                throw new MoodAnalyserCustomException(MoodAnalyserCustomException.ExceptionType.INVALID_LASTNAME, "Enter Valid LastName");
             }
             
         }
@@ -51,7 +51,7 @@ namespace MoodAnalyserAppWithCore
             }
             catch
             {
-                throw new MoodAnalyserCustomException(MoodAnalyserCustomException.ExceptionType.INVALID_INPUT, "Enter Valid Email");
+                throw new MoodAnalyserCustomException(MoodAnalyserCustomException.ExceptionType.INVALID_EMAIL, "Enter Valid Email");
             }
 
         }
@@ -65,7 +65,7 @@ namespace MoodAnalyserAppWithCore
             }
             catch
             {
-                throw new MoodAnalyserCustomException(MoodAnalyserCustomException.ExceptionType.INVALID_INPUT, "Enter Valid FirstName");
+                throw new MoodAnalyserCustomException(MoodAnalyserCustomException.ExceptionType.INVALID_MOBILE, "Enter Valid FirstName");
             }
         }
         public bool Password(string Password)
@@ -78,7 +78,7 @@ namespace MoodAnalyserAppWithCore
             }
             catch
             {
-                throw new MoodAnalyserCustomException(MoodAnalyserCustomException.ExceptionType.INVALID_INPUT, "Enter Valid Password");
+                throw new MoodAnalyserCustomException(MoodAnalyserCustomException.ExceptionType.INVALID_PASSWORD, "Enter Valid Password ");
             }
         }
     }
