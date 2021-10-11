@@ -11,7 +11,7 @@ namespace MoodAnalyserAppWithCore
         public static string pattern = "^[A-Z][a-z]{2,}$";
         public static string Email= "^[a-zA-Z0-9]+([.#_$+-][a-zA-Z0-9]+)*[@][a-zA-Z0-9]+[.][a-zA-Z]{2,3}([.][a-zA-Z]{2})?$";
         public static string Mobile= "^[0-9]{2}[ ]?[6-9][0-9]{9}$";
-        public static string password= "^(?=.*[A-Z])(?=.*[!@#$%^&])([a-zA-Z0-9].{8,})$";
+        public static string password= "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$";
 
         public bool FirstName(string FirstName)
         {
